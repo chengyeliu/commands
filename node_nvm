@@ -9,3 +9,11 @@ nvm install lts/* --reinstall-packages-from=node
 
 --uninstall old version 
 nvm uninstall [old version]
+
+
+--choose node version
+nvm use 10.15.3
+
+
+--change default node version
+nvm alias default 10.15.3
