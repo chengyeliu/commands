@@ -1,0 +1,9 @@
+
+
+--create new key 
+ssh-keygen -t rsa -b 4096 -C "chengyeliu@g.harvard.edu"
+
+--paste content of ~/.ssh/id_rsa.pub to github
+
+--test connection 
+ssh -T git@github.com
