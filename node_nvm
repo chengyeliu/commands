@@ -1,0 +1,11 @@
+
+--list installed versions of node
+nvm ls
+
+
+--install lastest stable version 
+nvm install lts/* --reinstall-packages-from=node
+
+
+--uninstall old version 
+nvm uninstall [old version]
