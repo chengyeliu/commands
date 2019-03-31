@@ -1,5 +1,3 @@
-
-
 --create new key 
 ssh-keygen -t rsa -b 4096 -C "chengyeliu@g.harvard.edu"
 
