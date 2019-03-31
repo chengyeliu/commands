@@ -1,3 +1,7 @@
 
 --install angular 
 npm install -g @angular/cli
+
+
+--open up a server
+ng serve --host 0.0.0.0 --host 8080 --disableHostCheck=true
