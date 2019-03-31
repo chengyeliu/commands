@@ -4,4 +4,4 @@ npm install -g @angular/cli
 
 
 --open up a server
-ng serve --host 0.0.0.0 --port 8080 --disableHostCheck=true
+ng serve --host 0.0.0.0 --port 8080 --disableHostCheck
