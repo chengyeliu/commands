@@ -10,3 +10,7 @@ ssh -T git@github.com
 --set name and email
 git config --global user.name chengyeliu
 git config --global user.email chengyeliu@g.harvard.edu
+
+
+--change origin to ssh
+git remote set-url origin git@github.com:chengyeliu/commands.git
