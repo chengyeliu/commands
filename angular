@@ -5,3 +5,21 @@ npm install -g @angular/cli
 
 --open up a server
 ng serve --host 0.0.0.0 --port 8080 --disableHostCheck
+
+
+
+
+
+
+
+
+
+
+
+--add angular material locally
+ng add @angular/material
+
+--add theme to style.css
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
