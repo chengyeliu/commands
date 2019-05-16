@@ -1,0 +1,20 @@
+# change folder1's name to folder2
+mv folder1 folger2
+
+
+
+
+
+
+
+# create python virtual environment and activate it, env is name
+python3 -m venv env   
+source env/bin/activate 
+
+# update pip
+pip install --update pip
+pip --version 
+
+# install requirement 
+pip install -r requirement.txt
+
