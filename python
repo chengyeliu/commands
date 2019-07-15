@@ -1,5 +1,9 @@
+# 安装，使用虚拟环境
 sudo apt-get install python3-env
 
 python3 -m venv trendy-env
 
 source trendy_env/bin/activate
+
+# 生成依赖需求
+pip freeze > requirements.txt
