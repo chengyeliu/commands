@@ -1,0 +1,5 @@
+sudo apt-get install python3-env
+
+python3 -m venv trendy-env
+
+source trendy_env/bin/activate
