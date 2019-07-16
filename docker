@@ -1,0 +1,2 @@
+# download jupyter docker image
+docker run -it --rm -p 8080:8888 jupyter/tensorflow-notebook
