@@ -1,2 +1,14 @@
 # download jupyter docker image
 docker run -it --rm -p 8080:8888 jupyter/tensorflow-notebook
+
+
+# show active docker processes
+docker ps
+
+
+# get into running docker 
+docker exec -it <docker container ID> /bin/bash
+
+
+
+
